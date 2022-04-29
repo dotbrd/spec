@@ -18,12 +18,12 @@ The specification for an object should look as follows:
 ### [name of the first item in the list]
 [file it is stored in]: [how it is stored there]
 
-Basically: [more human-redable description]
+Basically: [more human-readable description]
 
 ### [name of the second item in the list]
 [file it is stored in]: [how it is stored there]
 
-Basically: [more human-redable description]
+Basically: [more human-readable description]
 
 ### [etc]
 [etc]
