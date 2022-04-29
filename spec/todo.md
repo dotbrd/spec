@@ -21,7 +21,7 @@ followed by a newline.
 idea: Assignees can be represented by putting the assignees
 (`[name] <[email]>`), each on different lines, in a file called `who.txt`.
 
-## fields stored
+## fields
 - title
 - description
 - internal todos
