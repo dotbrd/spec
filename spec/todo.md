@@ -81,6 +81,9 @@ Basically: Every line contains one name and one email address.
 
 ## files
 - todo.md
+- idea: labels.txt
+- idea: who.txt
+- idea: when.txt
 
 ### todo.md
 ```
