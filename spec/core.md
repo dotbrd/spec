@@ -53,3 +53,7 @@ You can read more about them in the files that carry their name.
   themselves, and computer-generated dotboard projects do not need to worry
   about naming that much.
 - `.type` files should generally not *require* having any content.
+- The files contained directly within an object should generally be described
+  precisely in the type specification for that object, and there should be a
+  limited amount. Exceptions apply to objects that have limitless file storage
+  as a specific directive (e.g. `data`).
