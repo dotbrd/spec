@@ -22,3 +22,6 @@ backend
 - Git, for history and sharing with others
 - Network shares, for real-time collaboration
 - Regular, local filesystem for personal organisation? Why not!
+
+# get started
+Check out `spec/intro.md` to get started with the specification.
