@@ -50,7 +50,7 @@ be within the `attachments` directory.
 ### Internal todos
 Any object of type `list` that contains one or more objects of type `todo`.
 
-Basically: Every list of todos within a todo is considered an sub-todo list.
+Basically: Every list of todos within a todo is considered a sub-todo list.
 
 Alternatively: For very simple todos, include a markdown checklist at the end
 of `todo.md`.
