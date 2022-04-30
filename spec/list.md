@@ -8,6 +8,9 @@ You can add any amount of todos to the list by including todo objects.
 The names of the folders of these todo objects determine the ordering: numeric
 if possible, alphabetic otherwise.
 
+idea: An alternative ordering can be specified by putting the names of todo
+object folders in a file called `order.txt`, in the order that you want.
+
 idea: Labels of this list can be represented by putting the labels, each on
 different lines, in a file called `labels.txt`.
 
