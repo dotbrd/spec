@@ -10,7 +10,7 @@ The specification for an object should look as follows:
 ## tldr
 [short, human-readable explanation of the object]
 
-## fields
+## Fields
 - [one piece of data stored in the object]
 - [another]
 - [etc]
@@ -28,7 +28,7 @@ Basically: [more human-readable description]
 ### [etc]
 [etc]
 
-## files
+## Files
 - [one of the files contained in the object]
 - [another]
 - [etc]
@@ -42,7 +42,7 @@ Basically: [more human-readable description]
 ### [etc]
 [etc]
 
-## objects
+## Objects
 - [description of an object contained in the object]
 - [another]
 - [etc]
