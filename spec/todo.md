@@ -1,5 +1,5 @@
-# todo object
-## tldr
+# Todo object
+## Tldr
 A todo object contains a file called `todo.md`, where you can write a title
 and description for the todo using markdown syntax.
 
@@ -21,7 +21,7 @@ followed by a newline.
 idea: Assignees can be represented by putting the assignees
 (`[name] <[email]>`), each on different lines, in a file called `who.txt`.
 
-## fields
+## Fields
 - title
 - description
 - internal todos
@@ -30,14 +30,14 @@ idea: Assignees can be represented by putting the assignees
 - idea: deadlines
 - idea: assignees
 
-### title
+### Title
 `todo.md`:
 Whatever follows the first singular hash that starts a line,
 plus optional whitespace, up until an unescaped newline character.
 
 Basically: The first markdown title in the `todo.md` document.
 
-### description
+### Description
 `todo.md`:
 All of the text below the first line that starts with one hash.
 
@@ -47,7 +47,7 @@ document.
 As much as possible, when the description references other files, they should
 be within the `attachments` directory.
 
-### internal todos
+### Internal todos
 Any object of type `list` that contains one or more objects of type `todo`.
 
 Basically: Every list of todos within a todo is considered an sub-todo list.
@@ -55,17 +55,17 @@ Basically: Every list of todos within a todo is considered an sub-todo list.
 Alternatively: For very simple todos, include a markdown checklist at the end
 of `todo.md`.
 
-### attachments
+### Attachments
 Zero or one objects of type `data` that contain one or more files.
 
 Basically: A non-empty data directory.
 
-### idea: labels
+### Idea: labels
 `labels.txt`: Every line.
 
 Basically: Every line contains one label that is associated with this to-do.
 
-### idea: deadlines
+### Idea: deadlines
 `when.txt`: `[datetime]` on every line.
 
 Basically: Every line contains one datetime.
@@ -74,12 +74,12 @@ Alternatively: A single deadline can be included in the todo.md file, by
 putting the line `[deadline]` right after the title, followed by a newline or
 EOF.
 
-### idea: assignees
+### Idea: assignees
 `who.txt`: `[name] <[email]>` on every line.
 
 Basically: Every line contains one name and one email address.
 
-## files
+## Files
 - todo.md
 - idea: labels.txt
 - idea: who.txt
@@ -91,20 +91,20 @@ Basically: Every line contains one name and one email address.
 [description]
 ```
 
-### idea: labels.txt
+### Idea: labels.txt
 ```
 [label] +
 ```
 
-### idea: who.txt
+### Idea: who.txt
 ```
 [name] <[email]> +
 ```
 
-### idea: when.txt
+### Idea: when.txt
 ```
 [label]: [datetime] | [datetime] +
 ```
 
-## objects
+## Objects
 - `list` objects containing `todo` objects.

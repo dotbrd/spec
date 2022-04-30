@@ -1,7 +1,7 @@
-# intro
+# Intro
 This folder contains the dotboard project management system specification.
 
-# table of contents
+# Table of contents
 | file/folder 		| content 						|
 |-------------------|-------------------------------|
 | core.md			| core specification 			|

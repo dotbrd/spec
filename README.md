@@ -1,4 +1,4 @@
-# spec
+# Spec
 Specification for an open, filesystem-based standard for kanban-style project
 management. Why?
 
@@ -11,7 +11,7 @@ management. Why?
 
 You can find the specification in the `spec` folder.
 
-# usage
+# Usage
 As this specification is filesystem based, you can use it from a file manager,
 terminal, whatever. However, it is also meant to be machine-readable:
 applications will be built to implement this specification and visualize the
@@ -23,5 +23,5 @@ backend
 - Network shares, for real-time collaboration
 - Regular, local filesystem for personal organisation? Why not!
 
-# get started
+# Get started
 Check out `spec/intro.md` to get started with the specification.

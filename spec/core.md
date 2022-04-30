@@ -1,9 +1,9 @@
-# objects
+# Objects
 The core primitive of the dotboard organisation system is the *object*.
 Objects earned their name by virtue of there not being a better name that
 I could come up with.
 
-## structure
+## Structure
 An object is any folder on a filesystem that adheres to the following
 properties:
 
@@ -26,7 +26,7 @@ The parent folder shown here is an object of type `board`. Incidentally, this
 project derives its name from the unique identifier of this object:
 `.board` -> `dotboard`
 
-## information storage
+## Information storage
 An object stores information in a combination of the following:
 
 - The contents of files
@@ -35,7 +35,7 @@ An object stores information in a combination of the following:
 
 This means that plain folders within objects are ignored by default.
 
-## types
+## Types
 Every object has an associated type. Each type refers to a specification, which
 dictates what information the object can and/or must store, and how. The basic
 types that are required to make the core specification complete are:
@@ -47,7 +47,7 @@ types that are required to make the core specification complete are:
 
 You can read more about them in the files that carry their name.
 
-# conventions
+# Conventions
 - Objects should, generally, not require a particular name, so people using
   this system can name them anything and get the filesystem structure clear to
   themselves, and computer-generated dotboard projects do not need to worry

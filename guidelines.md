@@ -1,8 +1,8 @@
-# specification for general ideas that apply to every object
+# Specification for general ideas that apply to every object
 There's no specific guidelines for this, but try to be as unambiguous as
 possible.
 
-# object specification
+# Object specification
 The specification for an object should look as follows:
 
 ```

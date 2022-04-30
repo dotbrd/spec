@@ -1,5 +1,5 @@
-# board object
-## tldr
+# Board object
+## Tldr
 A board object contains a bunch of lists of todos.
 
 You can add a title and description using markdown syntax in `board.md`.
@@ -7,7 +7,7 @@ You can add a title and description using markdown syntax in `board.md`.
 A picture can also be specified, by putting it in this object and calling it
 `icon.[ext]`.
 
-## fields
+## Fields
 - title
 - description
 - icon
@@ -15,26 +15,26 @@ A picture can also be specified, by putting it in this object and calling it
 - ordering
 - idea: label settings
 
-### title
+### Title
 `board.md`:
 Whatever follows the first singular hash that starts a line,
 plus optional whitespace, up until an unescaped newline character.
 
 Basically: The first markdown title in the `board.md` document.
 
-### description
+### Description
 `board.md`:
 All of the text below the first line that starts with one hash.
 
 Basically: Everything that follows the first markdown title in the `board.md`
 document.
 
-### lists
+### Lists
 A set of list objects.
 
 Basically: This object stores lists in an ordered list.
 
-### ordering
+### Ordering
 The lists are presumed to be in alphabetic order of the names of
 the folders that represent them. If the names of all of the folders start with
 digits, the ordering is presumed to be numeric. Conflict handling is
@@ -46,7 +46,7 @@ Altenatively: idea: Alternative ordering can be specified in `order.txt`. Each
 line is to contain the name of one list object folder, and the order of the
 lines determines the order of the lists.
 
-### idea: label settings
+### Idea: label settings
 `labels.csv`: The values in columns other than `label`. Labels in the column
 called `label`.
 
@@ -61,7 +61,7 @@ weekly;		blue;	0
 daily;		cyan;	1
 ```
 
-## files
+## Files
 - board.md
 - icon.[ext]
 - idea: order.txt
@@ -78,17 +78,17 @@ Image content.
 
 By convention, this file is a PNG, so ext will also be `png`.
 
-### idea: order.txt
+### Idea: order.txt
 ```
 [folder name] +
 ```
 
-### idea: labels.csv
+### Idea: labels.csv
 ```csv
 labels;		[colname one]; 	[colname two]; 	[etc]
 [label];	[value one];	[value two]; 	[etc]
 [etc] +
 ```
 
-## objects
+## Objects
 - `list` objects.
