@@ -7,6 +7,15 @@ You can add a title and description using markdown syntax in `board.md`.
 A picture can also be specified, by putting it in this object and calling it
 `icon.[ext]`.
 
+The order of the lists in the board is determined by their folder name:
+sorted numerically if possible, alphabetically otherwise.
+
+idea: Alternatively, you can specify the order of the lists by putting their
+folder names in a file called `order.txt`, in the order that you want.
+
+idea: Data associated with labels can be put in a filed called `labels.csv`,
+containing one `labels` column, and other columns with the linked values.
+
 ## Fields
 - title
 - description
