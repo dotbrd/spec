@@ -85,8 +85,8 @@ By convention, this file is a PNG, so ext will also be `png`.
 
 ### idea: labels.csv
 ```csv
-labels; 		[colname one]; 	[colname two]; 	[etc]
-[label name];	[value one];	[value two]; 	[etc]
+labels;		[colname one]; 	[colname two]; 	[etc]
+[label];	[value one];	[value two]; 	[etc]
 [etc] +
 ```
 
