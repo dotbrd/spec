@@ -50,7 +50,7 @@ Basically: Numeric or alphabetic ordering by folder name.
 
 Altenatively: idea: Alternative ordering can be specified in `order.txt`. Each
 line is to contain the name of one todo object folder, and the order of the
-line determines the order of the todos.
+lines determines the order of the todos.
 
 ### idea: labels
 `labels.txt`: Every line.
@@ -61,7 +61,6 @@ Basically: Every line contains one label that is associated with this to-do.
 - list.md
 - idea: order.txt
 - idea: labels.txt
-- objects
 
 ### list.md
 ```
